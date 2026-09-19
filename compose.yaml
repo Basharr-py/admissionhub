@@ -39,7 +39,7 @@ services:
         container_name: postgres-container
 
     app-frontend1:
-        image: basharr99/app-frontend:1.1
+        image: app-frontend
         healthcheck:
             interval: 100s
             retries: "3"
