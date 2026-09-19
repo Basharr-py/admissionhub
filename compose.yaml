@@ -58,7 +58,7 @@ services:
         container_name: postgres-container
 
     app-frontend1:
-        build:
+        image: basharr99/app-frontend:1.1
             context: aggregate-calc-frontend/.
             dockerfile: Dockerfile
         healthcheck:
