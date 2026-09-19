@@ -59,8 +59,6 @@ services:
 
     app-frontend1:
         image: basharr99/app-frontend:1.1
-            context: aggregate-calc-frontend/.
-            dockerfile: Dockerfile
         healthcheck:
             interval: 100s
             retries: "3"
