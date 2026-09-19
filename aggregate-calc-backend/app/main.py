@@ -14,7 +14,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://34.229.9.30:8080"],
-    allow_origin_regex=r"https://.*\.duckdns\.org",
+    allow_origin_regex=r"https://.*\.indevs\.in",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
